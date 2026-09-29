@@ -1,0 +1,18 @@
+[
+["Could you provide me with everything on file about my account?", "ACCESS"],
+["I'd like to see the data you have collected on me.", "ACCESS"],
+["Send me my personal records held by your company.", "ACCESS"],
+["The email you have for me is old, please replace it with a.b@example.org", "CORRECTION"],
+["You've spelled my name wrong on the invoice.", "CORRECTION"],
+["Kindly modify my contact number to 9000012345, the earlier one is invalid.", "CORRECTION"],
+["Delete every record you keep about me.", "ERASURE"],
+["Please permanently remove my profile and history.", "ERASURE"],
+["I'm leaving the platform; erase my personal data.", "ERASURE"],
+["I don't want targeted ads anymore.", "CONSENT_WITHDRAWAL"],
+["Please don't send me promotional SMS in future.", "CONSENT_WITHDRAWAL"],
+["I'm withdrawing permission to use my data for analytics.", "CONSENT_WITHDRAWAL"],
+["The app keeps crashing when I open my cart.", "OTHER"],
+["Can you delete the item from my cart?", "OTHER"],
+["Is my order delivered?", "OTHER"],
+["Tell me more about your privacy policy.", "OTHER"]
+]

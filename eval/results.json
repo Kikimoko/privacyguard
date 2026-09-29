@@ -1,0 +1,86 @@
+{
+  "engine": "presidio",
+  "pii": {
+    "IN_AADHAAR": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 600,
+      "fp": 0,
+      "fn": 0
+    },
+    "IN_PAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 300,
+      "fp": 0,
+      "fn": 0
+    },
+    "IN_UPI_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 300,
+      "fp": 0,
+      "fn": 0
+    },
+    "IN_IFSC": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 300,
+      "fp": 0,
+      "fn": 0
+    },
+    "EMAIL_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 600,
+      "fp": 0,
+      "fn": 0
+    },
+    "PHONE_NUMBER": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 900,
+      "fp": 0,
+      "fn": 0
+    },
+    "CREDIT_CARD": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 300,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "pii_micro": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "latency_ms": 3.33,
+  "leakage": {
+    "pii_values": 3300,
+    "leaked_before": 3300,
+    "leaked_after": 0,
+    "leakage_rate_after": 0.0
+  },
+  "dsr_dev": {
+    "n": 40,
+    "accuracy": 1.0,
+    "auto_handled": 0.775,
+    "unsafe_auto_errors": 0,
+    "errors": []
+  },
+  "dsr_heldout": {
+    "n": 16,
+    "accuracy": 0.938,
+    "auto_handled": 0.75,
+    "unsafe_auto_errors": 0,
+    "errors": [
+      {
+        "text": "Can you delete the item from my cart?",
+        "gold": "OTHER",
+        "pred": "ERASURE",
+        "conf": 0.5
+      }
+    ]
+  }
+}
